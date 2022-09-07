@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root{
+    --azulclaro: #48D6ED;
+    --azuloscuro: #337AB7;
+    --azulnegro: #303342;
+    --negro: #333333;
+    --negro2: #000;
+    --gris: #B2B3B3;
+    --fondo: #FFFEFC;
+    --verdeazul: #157A8A;
+    --Magenta: #9C2759;
+    --blanco: #fff;
+    --degradado: linear-gradient(49.54deg, #337AB7 2.89%, #0B3860 80.34%);
+  }
+ 
+.habitacion{
+    display: flex;
+    flex-direction: column;
+    z-index: 1;      
+    
+
+}
+
+.titulo{
+    background: linear-gradient(58deg, rgba(2,0,36,1) 0%, rgba(15,138,217,0.9612219887955182) 19%, rgba(13,136,215,1) 83%);
+    text-align: center;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+        
+}
+
+.info-habitacion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 80px;
+    padding: 15px;
+    
+    
+}
+
+.habitacion p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    font-weight: 4000;
+    text-align: justify;
+
+
+}
+
+.caracteristicas-habitacion{
+    display: flex;
+    justify-content: space-around;
+}
+
+.lista{
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    
+
+}
+
+h2{
+    font-family: 'Marcellus', serif;
+    color: var(--verdeazul);
+    font-size: 4.5rem;
+
+}
+
